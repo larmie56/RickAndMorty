@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">RickAndMorty</string>
+    <string name="placeholder_character_name">Pat Gueterman</string>
+    <string name="status">Status</string>
+    <string name="origin">Origin</string>
+    <string name="location">Location</string>
+    <string name="placeholder_status">Dead</string>
+    <string name="placeholder_species">Robot</string>
+    <string name="placeholder_origin">Unknown</string>
+    <string name="placeholder_location">Planet Squanch</string>
+    <string name="species">Species</string>
 </resources>

@@ -26,6 +26,9 @@ object Version {
     //Glide
     const val glide: String = "4.12.0"
 
+    //CircleImageView
+    const val circleImageView: String = "3.1.0"
+
     // Junit
     const val junit: String = "4.13"
     const val extJunit = "1.1.1"

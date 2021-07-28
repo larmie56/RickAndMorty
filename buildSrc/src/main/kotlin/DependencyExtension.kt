@@ -19,6 +19,7 @@ val appLibraries = arrayListOf<String>().apply {
     add(Library.retrofitMoshi)
     add(Library.moshi)
     add(Library.glide)
+    add(Library.circleImageView)
 }
 
 val androidTestLibraries = arrayListOf<String>().apply {

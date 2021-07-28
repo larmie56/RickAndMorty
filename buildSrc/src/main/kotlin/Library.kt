@@ -37,6 +37,9 @@ object Library {
     //Glide
     const val glide: String = "com.github.bumptech.glide:glide:${Version.glide}"
 
+    //CircleImageView
+    const val circleImageView = "de.hdodenhof:circleimageview:${Version.circleImageView}"
+
     // Junit
     const val junit: String = "unit:junit:${Version.junit}"
     const val extJUnit = "androidx.test.ext:junit:${Version.extJunit}"
