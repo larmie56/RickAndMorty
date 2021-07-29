@@ -36,4 +36,7 @@ object Version {
     // Junit
     const val junit: String = "4.13"
     const val extJunit = "1.1.1"
+
+    // Truth
+    const val truth: String = "1.0.1"
 }

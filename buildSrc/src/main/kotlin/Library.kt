@@ -48,4 +48,7 @@ object Library {
     // Junit
     const val junit: String = "unit:junit:${Version.junit}"
     const val extJUnit = "androidx.test.ext:junit:${Version.extJunit}"
+
+    // Truth
+    const val truth: String = "com.google.truth:truth:${Version.truth}"
 }

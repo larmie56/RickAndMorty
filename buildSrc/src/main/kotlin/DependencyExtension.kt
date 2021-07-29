@@ -31,7 +31,8 @@ val androidTestLibraries = arrayListOf<String>().apply {
 }
 
 val testLibraries = arrayListOf<String>().apply {
-    add(Library.junit)
+    // add(Library.junit)
+    add(Library.truth)
 }
 
 val annotationProcessors = arrayListOf<String>().apply {
