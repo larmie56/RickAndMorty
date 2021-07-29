@@ -29,6 +29,7 @@
             tools:src="@drawable/placeholder_character_image" />
 
         <TextView
+            android:id="@+id/text_name"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:gravity="center"
