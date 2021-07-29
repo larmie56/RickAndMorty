@@ -1,6 +1,8 @@
 plugins {
     id("com.android.application")
     kotlin("android")
+    kotlin("kapt")
+    id("androidx.navigation.safeargs")
 }
 
 android {
@@ -8,6 +10,9 @@ android {
     buildToolsVersion(AppConfig.buildTools)
 
     defaultConfig {
+
+        buildConfigField("String", "BASE_URL", "\"https://rickandmortyapi.com/api/\"")
+
         applicationId = AppConfig.applicationId
         minSdkVersion(AppConfig.minSdkVersion)
         targetSdkVersion(AppConfig.targetSdkVersion)
@@ -65,4 +70,5 @@ dependencies {
     implementation(appLibraries)
     androidTestImplementation(androidTestLibraries)
     testImplementation(testLibraries)
+    kapt(annotationProcessors)
 }
