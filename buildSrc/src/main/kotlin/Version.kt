@@ -11,6 +11,7 @@ object Version {
     const val navigation: String = "2.3.5"
     const val room: String = "2.3.0"
     const val lifecycle: String = "2.3.1"
+    const val paging: String = "3.0.1"
 
     // KotlinX
     const val coroutines: String = "1.5.0"
@@ -23,11 +24,14 @@ object Version {
     const val okhttp: String = "4.9.1"
     const val moshi: String = "1.12.0"
 
-    //Glide
+    // Glide
     const val glide: String = "4.12.0"
 
-    //CircleImageView
+    // CircleImageView
     const val circleImageView: String = "3.1.0"
+
+    // Dagger
+    const val dagger = "2.38"
 
     // Junit
     const val junit: String = "4.13"

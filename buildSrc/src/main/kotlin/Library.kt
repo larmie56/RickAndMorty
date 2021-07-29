@@ -16,6 +16,7 @@ object Library {
     const val espresso: String = "androidx.test.espresso:espresso-core:${Version.espresso}"
     const val viewModel: String =
         "androidx.lifecycle:lifecycle-viewmodel-ktx:${Version.lifecycle}"
+    const val paging: String = "androidx.paging:paging-runtime:${Version.paging}"
 
     // Design
     const val material: String = "com.google.android.material:material:${Version.material}"
@@ -30,15 +31,19 @@ object Library {
     const val loggingInterceptor: String =
         "com.squareup.okhttp3:logging-interceptor:${Version.okhttp}"
     const val retrofit: String = "com.squareup.retrofit2:retrofit:${Version.retrofit}"
-    const val retrofitMoshi: String =
-        "com.squareup.retrofit2:converter-moshi:${Version.retrofit}"
+    const val retrofitRxjava: String = "com.squareup.retrofit2:adapter-rxjava2:${Version.retrofit}"
+    const val retrofitMoshi: String = "com.squareup.retrofit2:converter-moshi:${Version.retrofit}"
     const val moshi: String = "com.squareup.moshi:moshi-kotlin:${Version.moshi}"
 
-    //Glide
+    // Glide
     const val glide: String = "com.github.bumptech.glide:glide:${Version.glide}"
 
-    //CircleImageView
+    // CircleImageView
     const val circleImageView = "de.hdodenhof:circleimageview:${Version.circleImageView}"
+
+    // Dagger
+    const val dagger = "com.google.dagger:dagger:${Version.dagger}"
+    const val daggerCompiler = "com.google.dagger:dagger-compiler:${Version.dagger}"
 
     // Junit
     const val junit: String = "unit:junit:${Version.junit}"

@@ -16,10 +16,13 @@ val appLibraries = arrayListOf<String>().apply {
     add(Library.okhttp)
     add(Library.loggingInterceptor)
     add(Library.retrofit)
+    add(Library.retrofitRxjava)
     add(Library.retrofitMoshi)
     add(Library.moshi)
     add(Library.glide)
     add(Library.circleImageView)
+    add(Library.dagger)
+    add(Library.paging)
 }
 
 val androidTestLibraries = arrayListOf<String>().apply {
@@ -29,6 +32,10 @@ val androidTestLibraries = arrayListOf<String>().apply {
 
 val testLibraries = arrayListOf<String>().apply {
     add(Library.junit)
+}
+
+val annotationProcessors = arrayListOf<String>().apply {
+    add(Library.daggerCompiler)
 }
 
 //util functions for adding the different type dependencies from build.gradle file
